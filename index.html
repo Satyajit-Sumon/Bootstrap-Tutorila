@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Tutorial</title>
+
+    <!-- Css link only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+     
+    <style>
+      #Nav-cont img{
+        width: 60px;
+        
+      }
+            
+    </style>
+
+</head>
+<body>
+
+    <div class="container" >
+
+        <!-- Header Section Start -->
+
+        <nav id="Nav-cont" class="navbar navbar-expand-lg bg-body-temporary">
+            <div id="Nav-item" class="container-fluid bg-info p-2">
+              <img class="btn btn-warning" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfkazd5GpELN70RzYWrzbZ9_cT-EhZPR4KQQ&usqp=CAU">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active fw-bold text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold text-white" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown fw-bold">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Demand</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+
+          <!-- Benner Section Start -->
+          <div class="row">
+            <div class="col-ms-12">
+
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&w=600" class="imageH d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/2176593/pexels-photo-2176593.jpeg?auto=compress&cs=tinysrgb&w=600" class="imageH d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/101667/pexels-photo-101667.jpeg?auto=compress&cs=tinysrgb&w=600" class="imageH d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <!-- Service Section Start -->
+
+          <div class="service-area row mt-3">
+            <div class="col-md-3">
+
+              <div class="card height-100vh">
+                <img style="width: 100%;" height="200px" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_1x._SY304_CB432774714_.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Service title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              
+              <div class="card height-100vh">
+                <img style="width: 100%;" height="200px" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Toys_1X._SY304_CB639759658_.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Service title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+
+              <div class="card height-100vh">
+                <img style="width: 100%;" height="200px" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Service title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+
+              <div class="card height-100vh">
+                <img style="width: 100%;" height="200px" src="https://m.media-amazon.com/images/I/81A3penuVOL._AC_SY200_.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Service title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Section Start here -->
+          
+            <div class="service-area mt-4 mb-4">
+              <div class="row">
+                <div class="contact-info text-center col-sm-12 col-lg-6">
+                  <h2 class="bg-primary" style="color:white;"> Contact Information</h2>
+                  <br>
+                  <h3 class="bg-info" >Office Address</h3>
+                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aliquam, sit ea asperiores impedit ratione? </p>
+                  <br>
+                  <h4 class="bg-secondary" >Phone Number</h4>
+                  <p> +88 230844580589 </p>
+                  <p> +88 230809998347 </p>
+                  <br>
+                  <h4 class="bg-success" > E-mail Address </h4>
+                  <p> sumon@youngone</p>
+                  <p> Rafiq@youngone</p>
+                  
+                </div>
+                <div class="contact-map col-sm-12 col-lg-6">
+                  <iframe width="550" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%20%E0%A6%B0%E0%A6%AA%E0%A7%8D%E0%A6%A4%E0%A6%BE%E0%A6%A8%E0%A6%BF%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%95%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%95%E0%A6%B0%E0%A6%A3%20%E0%A6%85%E0%A6%9E%E0%A7%8D%E0%A6%9A%E0%A6%B2,%20Modartis%20Limited,%20MS-01,%20%E0%A6%9A%E0%A6%9F%E0%A7%8D%E0%A6%9F%E0%A6%97%E0%A7%8D%E0%A6%B0%E0%A6%BE%E0%A6%AE%204223&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- About us Section Start here -->
+
+             
+            <div class="row" style="background-color: aquamarine;">
+              
+               <h2 class="text-center" style="font-weight:bold;font-size: 40px; color: brown; background-color: #dce5cc;">About Us</h2>
+                <div class="col-sm-3 mt-3 text-center">
+                    <h5> <a style="text-decoration: none; font-size: 15px; color: black; text-align: center; margin-top: 15px; font-weight: bold;" href="#">ABOUT US PAGE TEMPLATE</a> </h5>
+      
+                </div>
+                  <div class="col-sm-6 mt-3 text-center">
+                      <button class="Mango dropdown-toggle" data-bs-toggle="dropdown" > BOOTSTRAP BUILDER </button>
+                      <ul class="dropdown-menu" >
+                          <li> <a class="dropdown-item" href="#"></a> Home </li>
+                          <li> <a class="dropdown-item" href="#"></a> Banner </li>
+                          <li> <a class="dropdown-item" href="#"></a> About us </li>
+                          <li> <a class="dropdown-item" href="#"></a> Service </li>
+                          <li> <a class="dropdown-item" href="#"></a> Footer </li>
+                      </ul>
+                      <button class="Mango dropdown-toggle" data-bs-toggle="dropdown" > BOOTSTRAP BUILDER </button>
+                      <ul class="dropdown-menu" >
+                          <li> <a class="dropdown-item" href="#"></a> Home </li>
+                          <li> <a class="dropdown-item" href="#"></a> Banner </li>
+                          <li> <a class="dropdown-item" href="#"></a> About us </li>
+                          <li> <a class="dropdown-item" href="#"></a> Service </li>
+                          <li> <a class="dropdown-item" href="#"></a> Footer </li>
+                      </ul>
+                      <button class="Mango dropdown-toggle" data-bs-toggle="dropdown" > BOOTSTRAP BUILDER </button>
+                      <ul class="dropdown-menu" >
+                          <li> <a class="dropdown-item" href="#"></a> Home </li>
+                          <li> <a class="dropdown-item" href="#"></a> Banner </li>
+                          <li> <a class="dropdown-item" href="#"></a> About us </li>
+                          <li> <a class="dropdown-item" href="#"></a> Service </li>
+                          <li> <a class="dropdown-item" href="#"></a> Footer </li>
+                      </ul>
+                      <button class="Mango dropdown-toggle" data-bs-toggle="dropdown" > BOOTSTRAP BUILDER </button>
+                      <ul class="dropdown-menu" >
+                          <li> <a class="dropdown-item" href="#"></a> Home </li>
+                          <li> <a class="dropdown-item" href="#"></a> Banner </li>
+                          <li> <a class="dropdown-item" href="#"></a> About us </li>
+                          <li> <a class="dropdown-item" href="#"></a> Service </li>
+                          <li> <a class="dropdown-item" href="#"></a> Footer </li>
+                      </ul>
+      
+                  </div>
+      
+                  <div class="col-sm-3">
+                      <ul class="List-Item text-center" >
+                          <li> DOW </li>
+                          <li> NLO </li>
+                          <li> AD </li>
+                          <li> NOW </li>
+                      </ul>
+      
+                  </div>
+                 
+            </div>
+          
+  
+          <div class="service-area row">
+              <div class=" contact-info1 col-sm-12 mt-3 mb-3" style="text-align: center;">
+                  <h3>Responsive About Us</h3>
+                  <h1 style="color:darkgoldenrod" >MEET OUR TEAM</h1>
+                  <p style="font-size: 20px;" >We are all very different. We were born in different cities, at different times, we love different music, food, movies. But we have something that unites us all. It is our company. We are its heart. We are not just a team, we are a family.</p>
+                  <button id="btntag" class="btn btn-secondary">CONTACT US</button>
+              </div>
+          </div>
+  
+          <div class="row">
+  
+              <div class="col-sm-12 p-0 image-btn mb-3" >
+                      
+                  <img src="https://images.pexels.com/photos/1066176/pexels-photo-1066176.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+                      
+              </div>
+          </div>
+          <div class="service-area row">
+              
+                  <div class="col-sm-4">
+                      <div class="contact-btn" >
+                          <span class=" imojji " >🧳</span>
+                          <h3 >Creativity</h3>
+                          <p>It's the ability to think outside the box. We make decisions, create something new and generate a lot of ideas.</p>
+  
+                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                      <div class="contact-btn">
+                          <span class=" imojji ">🚧</span>
+                          <h3>Innovation</h3>
+                          <p>It's the ability to think outside the box. We make decisions, create something new and generate a lot of ideas.</p>
+  
+                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                      <div class="contact-btn">
+                          <span class=" imojji ">🌐</span>
+                          <h3>Implemantation</h3>
+                          <p>It's the ability to think outside the box. We make decisions, create something new and generate a lot of ideas.</p>
+  
+                      </div>
+                  </div>
+  
+              
+          </div>
+
+          <!-- footer section start here -->
+
+          <div class="row bg-dark mt-4 mb-5">
+            <div class="col-sm-4 mt-1" style="text-align: center;">
+              <ul class="list-group" >
+                <li class="list-group-item" >Contact Info</li>
+              </ul>
+              <ul style="color: white; line-height: 40px;">
+                <li class="list-group-item" >555-555-5555</li>
+                <li class="list-group-item" >youngone@sumon</li>
+                <li class="list-group-item" >100 Street No</li>
+                <li class="list-group-item" >City 100 street</li>
+              </ul>
+              
+            </div>
+            <div class="col-sm-4 mt-1" style="text-align: center;">
+              <ul class="list-group" >
+                <li class="list-group-item" >Contact Info</li>
+              </ul>
+              <ul style="color: white; line-height: 40px;">
+                <li class="list-group-item" >555-555-5555</li>
+                <li class="list-group-item" >youngone@sumon</li>
+                <li class="list-group-item" >100 Street No</li>
+                <li class="list-group-item" >City 100 street</li>
+              </ul>
+
+            </div>
+            <div class="col-sm-4 mt-1" style="text-align: center;">
+              <ul class="list-group" >
+                <li class="list-group-item" >Contact Info</li>
+              </ul>
+              <ul style="color: white; line-height: 40px;">
+                <li class="list-group-item" >555-555-5555</li>
+                <li class="list-group-item" >youngone@sumon</li>
+                <li class="list-group-item" >100 Street No</li>
+                <li class="list-group-item" >City 100 street</li>
+              </ul>
+
+            </div>
+
+          </div>
+    <div>       
+
+
+     <!-- Javascript Bundle with popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

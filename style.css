@@ -1,0 +1,106 @@
+.contact-info{
+    
+    padding-left: 10px;
+}
+.contact-map{
+    overflow: hidden;
+}
+
+.contact-map iframe{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-right: 0px;
+}
+
+/* Benner section start here */
+
+.imageH{
+    height: 500px;
+}
+
+/* Service section start here */
+
+.card{
+
+    box-shadow: 3px 2px 3px 1px gray;
+    color: black;
+    text-align: center;
+}
+.card:hover{
+    text-transform: calc(1s);
+    color: red;
+    background-color: cadetblue;
+}
+.card img{
+    transform: scale(0.8);
+}
+.card img:hover{
+    transform: scale(1);
+    
+}
+
+/* About us Section start here */
+
+.List-Item{
+    list-style: none;
+    background-color: tomato;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    width: 90px;
+}
+.List-Item li{
+    
+
+}
+.Mango{
+    border: none;
+    background-color: aquamarine;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.image-btn img{
+    width: 100%;
+    height: 350px;
+    padding-left: 0%;
+    background-repeat: no-repeat;
+    
+    
+}
+.service-area{
+    background-color: #eddfdf;
+}
+.contact-info1{
+    width: 650px;
+    margin: auto;
+    
+}
+#btntag:hover{
+    background-color: #ff5100;
+    border: none;
+    font-weight: bold;
+    
+}
+
+
+.imojji{
+    font-size: 50px;
+    align-items: center;
+}
+
+.contact-btn{
+    text-align: center;
+    height: 200px;
+    box-shadow:3px 2px 3px 1px gray;
+}
+
+/* Footer section start here */
+
+.list-group{
+
+    font-weight: bold;
+    font-size: 20px;
+}
